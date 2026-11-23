@@ -41,8 +41,8 @@ and exits non-zero with a clear stderr message on any failure.
 ## Verification (local, Python 3.12 — stdlib-only code, so behaviour is
 identical on the grader's Python 3.13)
 
-- `entry.png`: 1024×1024, 235,965 bytes
-- sha256: `a66a6082a67419265df1f9c961be3b71f6e75dac1213a5afd9a2eaa4e2517030`
+- `entry.png`: 1024×1024, 234,016 bytes
+- sha256: `2ae13332ff3dba28840442821829525f2b9dc6ebda69e09e5841b7d1303697dc`
 - `main.py` run twice into fresh output dirs: byte-identical outputs,
   same sha256 as above
 - No Pillow/network imports in `main.py` (grep for PIL/socket/urllib/
